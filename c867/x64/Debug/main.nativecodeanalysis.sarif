@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/osbur/source/repos/c867/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d8cdf12783cd746da2f7c41a53f5b2aec8b2b0e830ddc61e879f81a714049e8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/osbur/source/repos/c867/roster.h"
+          },
+          "hashes": {
+            "sha-256": "88acf833acb8ab8d068e088f4c243382d92c26b982cde5bac9b6444db8183bdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/osbur/source/repos/c867/student.h"
+          },
+          "hashes": {
+            "sha-256": "02a37e204d7265ebc875ed9669dfb7b1800ca0e1e993ac4999d1f19f7389649e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/osbur/source/repos/c867/degree.h"
+          },
+          "hashes": {
+            "sha-256": "41e98e3a3eea7bd4aaa80867d7543d6ab5caa6f38ec811f7b52837572732bcd8"
+          }
+        }
+      ]
+    }
+  ]
+}
